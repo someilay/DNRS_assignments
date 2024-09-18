@@ -20,6 +20,10 @@ ros2 launch assignment_package launch.py
 ```bash
 cd DNRS_assignment_2
 ```
+* Setup X11 server
+```bash
+xhost +local:
+```
 * Build docker images
 ```bash
 docker compose build
