@@ -1,0 +1,12 @@
+{
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "ros-humble",
+    "workspaceFolder": "/home/ros/DNRS_assignment_2/ros2_ws/src/assignment_package",
+    "shutdownAction": "stopCompose",
+    "initializeCommand": "xhost +local:",
+    "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.vscode-pylance", "ms-python.python", "ms-python.black-formatter"]
+    }
+  }
+}
